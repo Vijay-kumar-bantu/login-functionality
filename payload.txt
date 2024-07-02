@@ -1,0 +1,38 @@
+for sign up example payload
+-------------------------
+{
+  "name":"vijay",
+  "email":"test@test.com",
+  "phone":"123456789",
+  "password":"12345",
+  "type":"user",
+}
+
+
+for login through email payload
+----------------------------------
+{
+  "email":"test@test.com",
+  "password":"12345",
+  "method":"email",
+  "type":"user",
+}
+
+
+
+for login through OTP payload
+-------------------------------
+{
+  "phone":"123456789",
+  "method":"mobile",
+  "type":"user",
+}
+
+
+for verfying the otp payload
+---------------------------------
+{
+
+  "token":"66842af3b0228a738ef5abe3",
+  "otp":"826721"
+}
