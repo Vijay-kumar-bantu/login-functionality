@@ -5,11 +5,13 @@ const bcrypt = require("bcrypt");
 const session = require("../modals/session");
 const otpGenerator = require("otp-generator");
 require("dotenv").config();
+const cors = require("cors");
 
 const app = express();
 
 //middlewares
 app.use(express.json());
+app.use(cors());
 
 //connecting to mongoose server
 mongoose
@@ -99,7 +101,7 @@ app.post("/verify-otp", (req, res) => {
 			}
 		})
 		.catch((err) => {
-			res.status(500).json({ message: "Internal error" });
+			res.status(500).json({ message: "Timed out,please try again." });
 		});
 });
 

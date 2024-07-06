@@ -1,0 +1,86 @@
+.loginSection {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	gap: 10px;
+}
+
+.logoSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	height: 60px;
+	object-fit: cover;
+}
+
+.caption {
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.radioGroup {
+	display: flex;
+	gap: 10px;
+	width: 100%;
+}
+
+.radioGroup > div {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.inputGroup {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.inputGroup > div {
+	border-radius: 10px;
+	background-color: rgb(240, 237, 255);
+	padding: 10px;
+	display: flex;
+	width: 300px;
+}
+
+.inputGroup input {
+	flex-grow: 2;
+	font-size: 15px;
+	font-weight: 500;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	outline: none;
+	background-color: transparent;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.otherMethods {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 5px;
+}
+
+hr {
+	width: 20%;
+	height: 1px;
+}
+
+.otherMethods > p {
+	font-size: 12px;
+	opacity: 0.8;
+}

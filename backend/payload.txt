@@ -3,7 +3,7 @@ for sign up example payload
 {
   "name":"vijay",
   "email":"test@test.com",
-  "phone":"123456789",
+  "phone":"1234567890",
   "password":"12345",
   "type":"user",
 }
